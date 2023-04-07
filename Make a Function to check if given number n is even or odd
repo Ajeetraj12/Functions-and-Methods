@@ -1,0 +1,25 @@
+//Make a Function to check if given number n is even or odd
+
+import java.util.*;
+
+public class Function {
+    public static void printoddoreven(int x) {
+        if(x%2 == 0) {
+            System.out.println(x + " is Even number");
+        } else {
+            System.out.println(x + " is Odd number");
+        }
+    }
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        
+        printoddoreven(x);
+    }
+}
+
+//Input
+//55
+
+//Output
+//55 is Odd numnber
